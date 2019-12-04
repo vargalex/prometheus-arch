@@ -85,7 +85,7 @@ mkdir $DIRP/logs
       done
    fi
    #check the dependencies and exit if everything is installed
-   requiredPackages="ca-certificates gawk texinfo pkgconf gettext automake libtool bison flex zlib gmp mpfr libmpc git zip sshpass mc curl python expect bc inetutils openssh tftp-hpa libid3tag gperf libtool perl-archive-zip python-docutils help2man ncurses gnu-netcat doxygen"
+   requiredPackages="ca-certificates gawk texinfo pkgconf gettext automake libtool bison flex zlib gmp mpfr libmpc git zip sshpass mc curl python expect bc inetutils openssh tftp-hpa libid3tag gperf libtool perl-archive-zip python-docutils help2man ncurses gnu-netcat doxygen graphviz"
    missingPackages=""
    #pacman -Qi ca-certificates gawk texinfo pkgconf gettext automake libtool bison flex zlib gmp mpfr libmpc git zip sshpass mc curl python expect bc inetutils openssh tftp-hpa libid3tag gperf libtool perl-archive-zip python-docutils help2man ncurses gnu-netcat >/dev/null 2>&1 && break 
    #sudo pacman -S ca-certificates gawk texinfo pkgconf gettext automake libtool bison flex zlib gmp mpfr libmpc git zip sshpass mc curl python expect bc inetutils openssh tftp-hpa libid3tag gperf libtool perl-archive-zip python-docutils help2man ncurses gnu-netcat
