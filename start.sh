@@ -97,7 +97,7 @@ mkdir $DIRP/logs
       echo -e "${YELLOW} Missing packages$NONE: $RED$missingPackages$NONE"
       echo -e "$YELLOW Install the software, you need to enter a password from $NONE"
       echo -e "$YELLOW your Linux account to install packages. $NONE"
-      #sudo pacman -S $missingPackages
+      sudo pacman -S $missingPackages
       if [ $? -ne 0 ]; then 
          exit 0
       fi
